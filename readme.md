@@ -47,7 +47,7 @@ Please **do not** open issues related to the following:
 	Screenshot, clipboard, WiFi passwords (wlanapi dynamic load), SSH keys (~/.ssh/).
 
 **Dev tools**
-	VS Code / VS Codium / Cursor, JetBrains credential store, AWS CLI (~/.aws/), GCP (~/.config/gcloud/), git credential store.
+	VS Code / VS Codium / Cursor, JetBrains credential store, AWS CLI GCP (~/.config/gcloud/), git credential store.
 
 **Crypto**
 	Browser extension wallets (MetaMask, Phantom, Coinbase, Trust, Ronin, TronLink, Keplr, Exodus, Yoroi, Math Wallet, Solflare, OKX, Rabby, TokenPocket, Uniswap, Station, BNB Chain, OneKey), cold wallet seed file scan, desktop wallets (Electrum, Exodus, Atomic, Guarda, Jaxx, Coinomi).
