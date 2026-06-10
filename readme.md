@@ -147,9 +147,9 @@ Update `CUBACLIENT_API_KEY` in `panel/server/.env`, restart `panel.sh` (or throu
 
 ## Panel Screenshots
 
-![Dashboard](<docs/screenshots/Screenshot_20260610_215320.png>)
+![Dashboard](<docs/screenshots/dashboard.png>)
 
-![Builder](<docs/screenshots/pasted file.png>)
+![Builder](<docs/screenshots/builder.png>)
 
 ---
 
