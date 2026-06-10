@@ -12,7 +12,7 @@ async function seed() {
         password: await hashedPassword('admin'),
         role: 'admin'
     }
-   ])
+   ]).onConflictDoNothing()
 }
 
 seed()

@@ -6,7 +6,7 @@ SERVER="$ROOT/panel/server"
 CLIENT="$ROOT/panel/client"
 
 # first-run: install deps and init DB if not set up yet
-if [[ ! -d "$SERVER/node_modules" ]] || [[ ! -d "$CLIENT/node_modules" ]] || [[ ! -f "$SERVER/src/database/cubaware.sqlite" ]]; then
+if [[ ! -f "$SERVER/.env" ]] || [[ ! -d "$SERVER/node_modules" ]] || [[ ! -d "$CLIENT/node_modules" ]] || [[ ! -f "$SERVER/src/database/cubaware.sqlite" ]]; then
     echo "[panel] First run — running setup..."
     bash "$ROOT/panel/setup.sh"
 fi

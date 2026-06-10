@@ -30,6 +30,9 @@ Please **do not** open issues related to the following:
 
 ## Features
 
+> **Disclaimer:** most features have not been thoroughly tested. Expect bugs, incomplete behaviour, or breakage — especially on non-standard setups. Contributions and bug reports are welcome.
+
+
 **Browsers (Chromium (including Chrome 127+ & Gecko)**
 	Passwords, cookies, history, autofill form data, addresses, CCs etc.
 
@@ -139,6 +142,14 @@ DB_FILE_NAME=./src/database/cubaware.sqlite bun run seed
 **Rotating API keys with old builds:**
 Update `CUBACLIENT_API_KEY` in `panel/server/.env`, restart `panel.sh` (or through the UI). Binaries built against the old key will be rejected!
 
+
+---
+
+## Panel Screenshots
+
+![Dashboard](<docs/screenshots/Screenshot_20260610_215320.png>)
+
+![Builder](<docs/screenshots/pasted file.png>)
 
 ---
 
