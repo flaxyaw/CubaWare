@@ -1,0 +1,3 @@
+[submodule "client/CubaClient/CubaClient/.deps/minizip-ng-src"]
+	path = client/CubaClient/CubaClient/.deps/minizip-ng-src
+	url = https://github.com/zlib-ng/minizip-ng
