@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1779748012928,
+      "tag": "0000_magenta_metal_master",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1779755018150,
+      "tag": "0001_omniscient_karen_page",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1779811489106,
+      "tag": "0002_fat_old_lace",
+      "breakpoints": true
+    }
+  ]
+}

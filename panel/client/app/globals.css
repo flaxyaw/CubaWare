@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme inline {
+  --accent-color: #44649e;
+  --font-sans: var(--font-exo-sans);
+}
+
+body {
+  @apply font-sans bg-zinc-900 text-white;
+}

@@ -1,0 +1,34 @@
+#build output
+dist/
+client/CubaClient/CubaClient/build/
+
+#cmake fetch cache
+client/CubaClient/CubaClient/.deps/
+
+#panel server runtime
+panel/server/src/database/*.sqlite
+panel/server/ssl/
+panel/server/uploads/
+panel/server/dist/
+panel/server/.env
+
+#node / bun
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+#editors
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.obsidian/
+
+#misc
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+*.pem
